@@ -1,0 +1,61 @@
+    .container {
+  width: 300px;
+  margin: 200px auto;
+ font-family: 'Poppins',sans-serif;
+ 
+}
+
+.textt{
+    border-radius:5px;
+    border: 1px solid gray;
+    height:25px;
+    
+}
+h2 {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+button {
+  display: block;
+  margin: 10px auto;
+  width: 90%;
+}
+
+button {
+    width:140px;
+    height: 32px;
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+    border-radius:5px;
+}
+
+button:hover {
+  background-color: #0b5ed7;
+}
+.buton{
+    width:140px;
+
+  color: #0d6efd;
+  border: 1px solid #0d6efd;
+    border-radius:5px;
+    text-align: center;
+    height: 30px;   
+    text-decoration: none;
+    margin:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buton:hover {
+  background-color: #0b5ed7;
+    color:white;
+}
+.butoane{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left:5px
+}
